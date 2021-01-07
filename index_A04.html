@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment_04</title>
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="asserts/css/all.min.css">
+    <style>
+        *{
+            font-family: 'Oswald', sans-serif;
+        }
+      header{
+          height: 90px;
+          background:white;
+          box-shadow:1px 2px 4px 3px #c8bdbd;
+          position: relative;
+      }
+      header>img{
+          width: 245px;
+          padding: 10px;
+      }
+      header>ul{
+          position: absolute;
+          right: 24px;
+          top: 0;
+          list-style: none;
+          font-size: 20px;
+
+      }
+      header>ul>li{
+         display: inline-block;
+          padding: 10px;
+      }
+      body>footer{
+          height: 40px;
+          background: #c8bdbd;
+      }
+      footer>h1{
+          text-align: center;
+          /*padding: 10px;*/
+          margin: 0;
+
+      }
+      main{
+          position: relative;
+      }
+      main>nav{
+          width: 300px;
+          background-color:darkblue;
+         /* height:600px ;*/
+          position: absolute;
+          top: 0;
+          bottom: 0;
+      }
+      main>section{
+          margin-left: 300px;
+          padding: 10px;
+      }
+        main>section>section{
+            position: relative;
+            height: 300px;
+        }
+        main>section>section>div{
+            height: 100%;
+            width: calc((100% /3)*1);
+            position: absolute;
+            border: 1px dashed black;
+        }
+        main>section>section>div:nth-child(1){
+            left: 0;
+            background: url("img/brd.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        main>section>section>div:nth-child(2){
+            left: calc((100% /3)*1);
+            background: url("img/brd.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        main>section>section>div:nth-child(3){
+            left: calc((100% /3)*2);
+            background: url("img/brd.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        p::selection{
+            background: red;
+color: white;
+        }
+        main>nav>ul>li{
+           /* display: inline-block;*/
+            padding: 10px;
+        color: white;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <img alt="logo" src="img/ijse.png">
+    <ul>
+        <li><i class="fas fa-home"></i>Home</li>
+        <li><i class="fas fa-server"></i>Service</li>
+        <li><i class="fas fa-users"></i>Contacts</li>
+        <li><i class="fas fa-address-card"></i>AboutUs</li>
+
+    </ul>
+</header>
+<main>
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i>Home</li>
+            <li><i class="fas fa-server"></i>Service</li>
+            <li><i class="fas fa-users"></i>Contacts</li>
+            <li><i class="fas fa-address-card"></i>AboutUs</li>
+
+
+        </ul></nav>
+    <section>
+        <section>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+
+        <div></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa doloremque facere illum nobis veritatis! Asperiores assumenda consectetur debitis excepturi magnam nam non quae quos ratione? Dolore laudantium minima perferendis!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aspernatur consequuntur doloribus incidunt nemo odio ullam. Aliquid dolores eius ipsa libero maiores molestias quam quo veniam voluptas. Dolores, nihil, quod.</p>
+    </section>
+</main>
+<footer>
+<h1>Devolop by ijse</h1>
+</footer>
+</body>
+</html>
